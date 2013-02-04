@@ -58,11 +58,11 @@ Or install it yourself as:
 
 Add to **application.js**
 
-	//= require jquery-ui-timepicker-addon.js
+	//= require jquery-ui-timepicker-addon
 
 Add to **application.css**
 
-	*= require jquery-ui-timepicker-addon.css
+	*= require jquery-ui-timepicker-addon
 
 Example addition to **your.js.coffee**
 

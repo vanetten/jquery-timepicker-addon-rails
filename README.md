@@ -12,7 +12,7 @@ This is [jquery-ui-timepicker-addon.js](https://github.com/trentrichardson/jQuer
 	curl https://github.com/trentrichardson/jQuery-Timepicker-Addon/blob/master/README.md >> README.md
 	git add .
 	git commit -am "jquery-timepicker-addon-rails"
-	git remote add origin https://github.com/vanetten/jquery-timepicker-addon-rails.git
+	git remote add origin git@github.com:vanetten/jquery-timepicker-addon-rails.git
 	git push -u origin master
 
 * modify **lib/jquery-timepicker-addon-rails/version.rb** to match jquery-ui-timepicker-addon.js version

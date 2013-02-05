@@ -6,7 +6,7 @@ This is [jquery-ui-timepicker-addon.js](https://github.com/trentrichardson/jQuer
 	cd jquery-timepicker-addon-rails
 	mkdir -p vendor/assets/javascripts
 	mkdir -p vendor/assets/stylesheets
-	curl https://raw.github.com/trentrichardson/jQuery-Timepicker-Addon/master/jquery-ui-timepicker-addon.js -o -o vendor/assets/javascripts/jquery-ui-timepicker-addon.js
+	curl https://raw.github.com/trentrichardson/jQuery-Timepicker-Addon/master/jquery-ui-timepicker-addon.js -o vendor/assets/javascripts/jquery-ui-timepicker-addon.js
 	curl https://raw.github.com/trentrichardson/jQuery-Timepicker-Addon/master/jquery-ui-timepicker-addon.css -o vendor/assets/stylesheets/jquery-ui-timepicker-addon.css
 	echo "" >> README.md; echo "# jquery-ui-timepicker-addon.js appended README #" >> README.md; echo "" >> README.md
 	curl https://raw.github.com/trentrichardson/jQuery-Timepicker-Addon/master/README.md >> README.md

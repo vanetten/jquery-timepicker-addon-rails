@@ -6,8 +6,10 @@ This is [jquery-ui-timepicker-addon.js](https://github.com/trentrichardson/jQuer
 	cd jquery-timepicker-addon-rails
 	mkdir -p vendor/assets/javascripts
 	mkdir -p vendor/assets/stylesheets
-	curl https://raw.github.com/trentrichardson/jQuery-Timepicker-Addon/master/jquery-ui-timepicker-addon.js -o vendor/assets/javascripts/jquery-ui-timepicker-addon.js
-	curl https://raw.github.com/trentrichardson/jQuery-Timepicker-Addon/master/jquery-ui-timepicker-addon.css -o vendor/assets/stylesheets/jquery-ui-timepicker-addon.css
+	curl https://raw.githubusercontent.com/trentrichardson/jQuery-Timepicker-Addon/master/dist/jquery-ui-timepicker-addon.js -o vendor/assets/javascripts/jquery-ui-timepicker-addon.js
+	curl https://raw.githubusercontent.com/trentrichardson/jQuery-Timepicker-Addon/master/dist/jquery-ui-timepicker-addon.min.js -o vendor/assets/javascripts/jquery-ui-timepicker-addon.min.js
+	curl https://raw.githubusercontent.com/trentrichardson/jQuery-Timepicker-Addon/master/dist/jquery-ui-timepicker-addon.css -o vendor/assets/stylesheets/jquery-ui-timepicker-addon.css
+	curl https://raw.githubusercontent.com/trentrichardson/jQuery-Timepicker-Addon/master/dist/jquery-ui-timepicker-addon.min.css -o vendor/assets/stylesheets/jquery-ui-timepicker-addon.min.css
 	echo "" >> README.md; echo "# jquery-ui-timepicker-addon.js appended README #" >> README.md; echo "" >> README.md
 	curl https://raw.github.com/trentrichardson/jQuery-Timepicker-Addon/master/README.md >> README.md
 	git add .
@@ -17,7 +19,7 @@ This is [jquery-ui-timepicker-addon.js](https://github.com/trentrichardson/jQuer
 
 * modify **lib/jquery-timepicker-addon-rails/version.rb** to match jquery-ui-timepicker-addon.js version
 
-		VERSION = "1.2.1"
+		VERSION = "1.4.5"
 
 * modify **lib/jquery-timepicker-addon-rails.rb** to subclass Rails::Engine
 
